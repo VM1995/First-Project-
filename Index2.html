@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Кодировка--> 
+	<meta charset="utf-8">
+	<title>Мой проект</title>
+	<!--Будстрап--> 
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!--Текстовый стиль 1--> 
+	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<!--Текстовый стиль 2--> 
+	<link href='http://fonts.googleapis.com/css?family=Merienda:700' rel='stylesheet' type='text/css'>
+    <!--Текстовый стиль 3--> 
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type='text/css'>
+	<!--css стили--> 
+	<link href="css/style2.css" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#myCarousel">Виталёк</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav pull-right">
+                        <li><a style="font-family: 'Oswald', cursive; font-size: 15px;" href="#about">Обо мне</a></li>
+                        <li><a style="font-family: 'Oswald', cursive; font-size: 15px;" href="#phots">Фотки</a></li>
+                        <li><a style="font-family: 'Oswald', cursive; font-size: 15px;" href="#video">Видео</a></li>
+                        <li><a style="font-family: 'Oswald', cursive; font-size: 15px;" href="#studies">Учеба</a></li>
+                        <li><a style="color: red;" href="Index.html">Exit</a></li>
+                        <!--<li><a href="#download">Download</a></li>--> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Карусель с фото-->
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="active item">
+                <img src="img/main_logo.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/main_logo_2.jpg" alt="">
+            </div>
+        </div>
+
+        <!--Кнопки переключения-->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    
+   <!--Разделитель-->
+   <div class="container">
+
+        <!--Обо мне-->
+        <div id="about">
+            <div id="heading">
+                <h1>Здесь информация обо мне</h1>
+                <p class="lead">Как вы уже могли догадаться, меня зовут Виталик и я являюсь студентом 5 курса, Санкт-Петербургского государственного электротехнического университета ЛЭТИ.</p>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="span4">
+                    <img class="img-polaroid" src="img/logo_7.jpg" alt="" title="я на возложении цветов">
+                </div>
+                <div class="span8">
+                    <p class="lead">Родился и прожил первые пять лет своей жизни я в Алмате, после этого родители решили сменить обстановку и отправиться в Бузулук, на встречу  новым приключениям.</p>
+                    <p class="lead">В Бузулуке я беззаботно проучился 11 классов в школе №8, одновременно с этим  посещал разного рода кружки и секции и познакомился с многими людьми, с которыми до сих пор поддерживаю дружеские отношения.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span8">
+                    <p class="lead">После окончания школы в 2013году, передо мной встал выбор: <q>“а кем я хочу стать?”</q>  и я решил стать программистом <small><i>(глупенький)</i></small> также я понял, что мой город слишком крут для этого и поэтому я отправился учиться в Санкт-Петербург.</p>
+                    <p class="lead">Поступив в ЛЭТИ и проучившись  4 года, не написав ни одной строчки кода, я решил, что нужно что-то менять в своей жизни и вот мой первый <small>неполноценный</small> проект.</p>
+                </div>
+                <div class="span4">
+                    <img class="img-polaroid" src="img/logo_8.jpg" alt="" title="я на фоне моего поместья">
+                </div>
+            </div>
+        </div>
+
+        <!--Разделитель-->
+        <div class="divider"></div>
+
+        <!--Фотки-->
+        <div id="phots" class="row">
+            <h1>Фоточки со мной</h1>
+            <div class="span3"><img class="img-polaroid" src="img/logo_1.jpg" alt="" title="я на речке"></div>
+            <div class="span3"><img class="img-polaroid" src="img/logo_2.jpg" alt="" title="я в Москве"></div>
+            <div class="span3"><img class="img-polaroid" src="img/logo_3.jpg" alt="" title="я играю в гольф"></div>
+            <div class="span3"><img class="img-polaroid" src="img/logo_4.jpg" alt="" title="я мотоциклист"></div>
+        </div>
+
+        <!--Разделитель-->
+        <div class="divider"></div>
+        
+        <!--Видео-->
+        <div id="video" class="row">
+            <h1>Видосик со мной</h1>
+          <div id="video1"class="video">
+            <video id="my-video" class="video-js" controls preload="auto" width="459" height="259" muted=no  autobuffer >
+                <source src="video/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+            </video>
+          </div>
+        </div>
+
+        <!--Разделитель-->
+        <div class="divider"></div>
+
+        <!--Учеба-->
+        <div id="studies" class="row">
+            <div class="span4">
+                <img src="img/gear-icon.png" alt="">
+                <h3>Университет</h3>
+                <p>Санкт-Петербургский государственный электротехнический университет «ЛЭТИ» имени В. И. Ульянова (Ленина) — один из ведущих старейших российских вузов, основанный в 1886 году, был первым в Европе высшим учебным заведением, специализированным в области электротехники.</p>
+            </div>
+            <div class="span4">
+                <img src="img/monitoring-icon.png" alt="">
+                <h3>Факультет</h3>
+                <p>Факультет компьютерных технологий и информатики – один из старейших и самых больших факультетов университета. Основной образовательной деятельностью факультета является подготовка IT-специалистов (специалистов в области компьютерных технологий), соответствующих мировому уровню, для высокотехнологических отраслей инновационной экономики Российской Федерации.</p>
+            </div>
+            <div class="span4">
+                <img src="img/multi-files-icon.png" style = "margin-top: 100px;" alt="">
+                <h3 style = "margin-top: 112px;" >Кафедра</h3>
+                <p >Кафедра информационных систем – это базовая кафедра Министерства образования и науки РФ по направлению подготовки бакалавров и магистров «Информационные системы и технологии».</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Нижняя херня-->
+    <footer>
+
+        <!--Херня левая-->
+        <div class="container">
+            <div class="row">
+                <div class="span6">
+                    <h3>О компании</h3>
+                    <p>Перспективная компания, растущая в IT сфере день ото дня.</p>
+                </div>
+                <!--Херня правая-->
+                <div class="span6">
+                    <h3>Получить информацию</h3>
+                    <p>Вы можите оставить свою почту, чтобы получать информацию о жизни Виталюшки.</p>
+
+                     <!--Поле ввода-->
+                    <form action="" class="form-inline">
+                        <input type="email" class="input-large" placeholder="Email">
+
+                        <!--Кнопка-->
+                        <button type="submit" class="btn  btn-info" onclick="alert('Не работает');">Оставить</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--О компании-->
+            <div class="row">
+                <div class="span12">
+                    <p><small>Copyright 2018, ВиталюшКа</small></p>
+                    <ul id="social" class="inline">
+                        <li><a class="vk-icon" href="https://vk.com/id42332759"></a></li>
+                        <li><a class="twitter-icon" href="#"></a></li>
+                        <li><a class="google-icon" href="mailto:vitalja.misnjankin@gmail.com"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--Скрипты-->
+
+    <!--скрипт Аджакс--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!--скрипт Джеквери-->
+    <script>window.jQuery || document.write("<script src='js/jquery-1.8.3.min.js'>\x3C/script>")</script>
+    <!--скрипт Будстрап--> 
+    <script src="js/bootstrap.min.js"></script>
+    <!--скрипт Джеквери--> 
+    <script src="js/jquery.easing.1.3.js"></script>
+</body>
+</html>
