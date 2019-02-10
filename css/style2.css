@@ -1,0 +1,128 @@
+body {
+    padding-top: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    color: #47adcb;
+}
+/* Разделитель */
+.divider{
+    background-image: url(../img/divider-pattern.png);
+    background-repeat: repeat-x;
+    height: 30px;
+    width: 100%;
+
+}
+
+/* Верхняя строка */
+
+.navbar .brand {
+    font-family: 'Merienda', cursive;
+    font-size: 28px;
+}
+
+
+/* Карусель*/
+
+.carousel img {
+    width: 100%;
+    height: 800px;
+}
+
+/* .carousel-caption {
+    background: none;
+    max-width: 800px;
+    top: 150px;
+    padding: 0 200px;
+}
+
+    .carousel-caption h1 {
+        text-shadow: 0px 2px #222;
+    }
+
+    .carousel-caption a {
+        margin-top: 20px;
+    }*/
+
+
+/* Page Style*/
+
+
+#heading, #phots, #studies, #video{
+    text-align: center;
+    padding: 40px 0;
+
+}
+ #phots img {
+    height:400px;
+ }
+
+ #my-video {
+    top: 20px;
+    border: 6px solid #1b1b1b;
+    /* border-radius:7px;
+    left: 350px;*/
+    margin: auto;
+    
+
+ }
+
+#about div .row{
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+#screenshots h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* Footer стиль */
+
+footer {
+    background-color: #373737;
+    color: #999999;
+}
+
+    footer .span12 {
+        text-align: center;
+    }
+
+#social li a {
+    background-image: url(../img/social-media-icons.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+    #social li a.vk-icon {
+        background-position: 0px 0px;
+    }
+
+    #social li a:hover.vk-icon {
+        background-position: 0px -32px;
+    }
+
+
+    #social li a.twitter-icon {
+        background-position: -32px 0px;
+    }
+
+    #social li a:hover.twitter-icon {
+        background-position: -32px -32px;
+    }
+
+    #social li a.google-icon {
+        background-position: -64px 0px;
+    }
+
+    #social li a:hover.google-icon {
+        background-position: -64px -32px;
+    }
